@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(207, 202, 202);
+}
+
+form#uploadForm{
+
+    position: absolute;
+    top: 450px;
+    left: 30%;
+    width: 40%;
+    height: 240px;
+    display:block;
+    align-items:center;
+    background-color: antiquewhite;
+
+}
+
+#videoWrapper{
+    position: absolute;
+    top: 205px;
+    left: 30%;
+    width: 40%;
+    height: 240px;
+}
+div.progress-bar{
+    background-color: rgb(226, 147, 44);
+    width: 50%;
+}
+
+div.progress{
+    background-color: rgb(152, 158, 156);
+    text-align: center;
+    position: absolute;
+    top: 180px;
+    left: 30%;
+    width: 40.05%;
+    height: 18px;
+}
+
+input{
+    border: 0;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#videoTitle{
+    position: absolute;
+    top: 140px;
+    left: 30%;
+    width: 40%;
+    text-align: center;
+    color: bisque;
+    text-shadow: 2px 2px 5px rgb(58, 30, 30);
+    overflow-y:clip ;
+}
+
+#uploadStatus{
+    position: absolute;
+    top:480px;
+    left:30%;
+    width: 40%;
+    text-align: center;
+    color: rgb(253, 253, 253);
+    background-color: rgb(152, 158, 156);
+    /*border-radius: 15px 15px 15px 15px;*/
+}

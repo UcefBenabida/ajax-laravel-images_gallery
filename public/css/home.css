@@ -1,0 +1,125 @@
+
+.image{
+  margin-top: 5px;
+  border: 1px solid black;
+}
+#box{
+  margin-bottom: 800px;
+}
+
+.container{
+  width: 80%;
+}
+
+.card-content{
+    overflow-y: hidden;
+    }
+
+  .card-description{
+    height: 40px;
+    overflow-y: hidden;
+  }
+
+  #videoWrapper{
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+
+  }
+
+  .card-image{
+    height: 400px; /* Your height here */
+    overflow-y: hidden;
+  }
+
+  .brand-logo{
+    margin-left: 10px;
+  }
+
+  .btn-favorite{
+    margin-bottom: 260px;
+    margin-left: 20px;
+  }
+
+  .add-to-cart{
+    border: 0;
+    background-color: white;
+    color: orange;
+    margin-top: 10px;
+    margin-right: 0px;
+  }
+
+  .add-to-cart:hover{
+    background-color: white;
+    color: rgb(241, 201, 126);
+  }
+
+  .prod-price{
+    
+    color: black;
+    font-size: medium;
+    margin-top: 10px;
+  }
+
+  .price-container{
+    width: 60px;
+    margin-bottom: 35px;
+  }
+
+  .nav-bar{
+    background-color: rgb(241, 175, 52);
+  }
+
+  .nav-search{
+    background-color: rgb(241, 175, 52);
+  }
+
+  .btn-container{
+    margin-bottom: 39px;
+    margin-right: 117px;
+    background-color: white;
+
+  }
+
+  .add-to-cart:hover{
+
+    background-color: white;
+
+  }
+
+
+  .add-to-cart:focus{
+      background-color: rgb(0, 0, 0,0)
+    }
+
+
+  .rect-floating{
+    margin-bottom: 60px; 
+  }
+
+
+
+  #total-quantity{
+    border-radius: 50%;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-left: -70px;
+    font-size: 11px;
+
+  }
+
+  #app-message{
+    position:fixed ;
+    z-index: 5;
+    top: 38%;
+    left: 0%;
+    background-color: rgb(26, 211, 26);
+    opacity: 0;
+    border-radius: 0px 15px 15px 15px;
+    padding: 8px; 
+    font-size: 16px;
+    color: white;
+  }
